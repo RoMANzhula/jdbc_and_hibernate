@@ -12,8 +12,15 @@
     <property name="show_sql">true</property>
     <property name="format_sql">true</property>
 <!--    <property name="hibernate.hbm2ddl.auto">create</property>-->
-    <property name="hibernate.hbm2ddl.auto">validate</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
 
-    <mapping class="org.romanzhula.lesson_3.entity.Student"/>
+<!--    <mapping class="org.romanzhula.lesson_3.entity.Student"/>-->
+
+<!--    <mapping resource="student.hbm.xml"/>-->
+    <mapping class="org.romanzhula.lesson_4.entity.Student"/>
+    <mapping class="org.romanzhula.lesson_4.entity.Course"/>
+    <mapping class="org.romanzhula.lesson_4.entity.Enrollment"/>
+
+
   </session-factory>
 </hibernate-configuration>
