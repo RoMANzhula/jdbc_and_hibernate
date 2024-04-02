@@ -17,9 +17,14 @@
 <!--    <mapping class="org.romanzhula.lesson_3.entity.Student"/>-->
 
 <!--    <mapping resource="student.hbm.xml"/>-->
-    <mapping class="org.romanzhula.lesson_4.entity.Student"/>
-    <mapping class="org.romanzhula.lesson_4.entity.Course"/>
-    <mapping class="org.romanzhula.lesson_4.entity.Enrollment"/>
+
+<!--    <mapping class="org.romanzhula.lesson_4.entity.Student"/>-->
+<!--    <mapping class="org.romanzhula.lesson_4.entity.Course"/>-->
+<!--    <mapping class="org.romanzhula.lesson_4.entity.Enrollment"/>-->
+
+    <mapping class="org.romanzhula.lesson_5.entity.Student"/>
+    <mapping class="org.romanzhula.lesson_5.entity.Course"/>
+    <mapping class="org.romanzhula.lesson_5.entity.Enrollment"/>
 
 
   </session-factory>
